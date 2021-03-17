@@ -19,7 +19,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: 00 03 * * 1
+    - cron: 00 02 * * *
 jobs:
   run-it:
     runs-on: ubuntu-18.04
